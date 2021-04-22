@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  background-color: #7986cb;
+  transition: 0.4s ease-in; /* its cool nicko */
+}
+
+.small {
+  background-color: #49599a;
+}
+
+.big {
+  background-color: #aab6fe;
+}
+
+.greeting {
+  padding-top: 100px;
+  font-size: 4rem;
+  color: whitesmoke;
+}
