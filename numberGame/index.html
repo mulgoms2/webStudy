@@ -4,18 +4,24 @@
     <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
   </head>
-
   <body>
     <h1>Random Number Game</h1>
     <h3 class="js-h3">Generate a number between 0 and 0</h3>
     <form class="js-form">
+      <datalist id="number">
+        <option value="50"></option>
+        <option value="100"></option>
+        <option value="150"></option>
+        <option value="200"></option>
+      </datalist>
       <input
+        list="number"
         type="range"
         class="js-input"
         value="0"
         required
         min="0"
-        max="130"
+        max="200"
       />
     </form>
     <form class="js-form2">
